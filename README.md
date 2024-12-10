@@ -22,8 +22,8 @@ Choose a method:
 - **GitHub UI**: Press the "Use this template" button in the top-right corner of this page.
 - **GitHub CLI**: Install [GitHub CLI](https://cli.github.com). Then run one of the following:
   ```shell
-  gh repo create --template neoncitylights/typescript --public --clone {{repository}} # clone as public
-  gh repo create --template neoncitylights/typescript --private --clone {repository}} # clone as private
+  gh repo create --template neoncitylights/node --public --clone {{repository}}  # clone as public
+  gh repo create --template neoncitylights/node --private --clone {{repository}} # clone as private
   ```
 
 ### Replace placeholders
