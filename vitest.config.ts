@@ -6,5 +6,6 @@ export default defineConfig({
 			include: ['packages/**/src'],
 			provider: 'v8',
 		},
+		workspace: ['packages/*'],
 	},
 })
