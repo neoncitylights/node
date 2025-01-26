@@ -38,15 +38,11 @@ jobs:
       matrix:
         include:
           - tool: ESLint
-            npm-cmd: eslint
-            npm-cmd-env: |
-              npx eslint --env-info
+            tool-cmd: eslint
+            tool-env: npx eslint --env-info
           - tool: publint
-            npm-cmd: publint
-            npm-cmd-env: |
-              node --version
-              npm --version
-              npx publint --version
+            tool-cmd: publint
+            tool-env: npx publint --version
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -59,9 +55,9 @@ jobs:
         run: npm ci
       - name: Print environment info
         run: |
-          ${{ matrix.npm-cmd-env }}
+          ${{ matrix.tool-env }}
       - name: Lint with ${{ matrix.tool }}
-        run: npm run ${{ matrix.npm-cmd }}
+        run: npm run ${{ matrix.tool-cmd }}
 
   test:
     runs-on: ubuntu-latest

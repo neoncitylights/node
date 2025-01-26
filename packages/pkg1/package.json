@@ -33,8 +33,6 @@
 	],
 	"scripts": {
 		"build": "vite build",
-		"clean": "rm -rf ./dist/",
-		"reinstall": "npm run clean && npm install",
 		"test": "vitest",
 		"prepublint": "npm run build",
 		"publint": "publint",

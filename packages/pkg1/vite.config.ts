@@ -12,12 +12,8 @@ export default defineProject({
 	define: {
 		'import.meta.vitest': 'undefined',
 	},
-	plugins: [
-		dts({
-			insertTypesEntry: true,
-		}),
-	],
 	test: {
 		includeSource: ['src/**/*.{js,ts}'],
 	},
+	plugins: [dts()],
 })

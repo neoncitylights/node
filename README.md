@@ -64,9 +64,8 @@ npm publish --access public
 | `npm run test-ui`    | Run unit tests in UI/browser mode |
 | `npm run test-watch` | Run unit tests in watch mode |
 | `npm run lint`       | Check for ESLint/publint errors |
-| `npm run lint-fix`   | Fix ESLint errors (publint errors must be fixed manually) |
+| `npm run fix`        | Fix ESLint errors (publint errors must be fixed manually) |
 | `npm run eslint`     | Check for ESLint errors |
-| `npm run eslint-fix` | Fix ESLint errors |
 | `npm run publint`    | Check for NPM packaging errors |
 
 ### Developer tools

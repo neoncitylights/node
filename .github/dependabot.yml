@@ -19,7 +19,6 @@ updates:
           - "@types/node"
       lint:
         patterns:
-          - "@types/eslint__js"
           - "@eslint/*"
           - "@stylistic/eslint-plugin"
           - "eslint*"
