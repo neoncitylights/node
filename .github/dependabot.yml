@@ -19,11 +19,8 @@ updates:
           - "@types/node"
       lint:
         patterns:
-          - "@eslint/*"
-          - "@stylistic/eslint-plugin"
-          - "eslint*"
+          - "oxlint"
           - "publint"
-          - "typescript-eslint"
       vite:
         patterns:
           - "vite"

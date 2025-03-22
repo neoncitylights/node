@@ -11,7 +11,7 @@ This repository template makes it easier to create a new NPM library, package or
 - [x] Auto-bundled, minified source code with [Vite](https://vitejs.dev/)
 - [x] Unit testing and code coverage with [Vitest](https://vitest.dev/) framework
 - [x] Auto-generated API documentation with [TypeDoc](https://typedoc.org/)
-- [x] Auto-linted and formatted code with [ESLint](https://eslint.org/) and [Stylistic](https://eslint.style)
+- [x] Auto-linted code with [Oxlint](https://oxc.rs/docs/guide/usage/linter.html)
 - [x] Dependency updates with [Dependabot](https://github.com/dependabot)
 
 ## Getting started
@@ -63,9 +63,9 @@ npm publish --access public
 | `npm run test-ci`    | Run unit tests in CI mode |
 | `npm run test-ui`    | Run unit tests in UI/browser mode |
 | `npm run test-watch` | Run unit tests in watch mode |
-| `npm run lint`       | Check for ESLint/publint errors |
-| `npm run fix`        | Fix ESLint errors (publint errors must be fixed manually) |
-| `npm run eslint`     | Check for ESLint errors |
+| `npm run lint`       | Check for Oxlint/publint errors |
+| `npm run fix`        | Fix Oxlint errors (publint errors must be fixed manually) |
+| `npm run oxlint`     | Check for Oxlint errors |
 | `npm run publint`    | Check for NPM packaging errors |
 
 ### Developer tools
@@ -75,7 +75,7 @@ npm publish --access public
 | NPM                | [`package.json`](package.json), [`packages/*/package.json`](./packages/pkg1/package.json) | [docs](https://docs.npmjs.com/cli/v10/configuring-npm/package-json), [website](https://docs.npmjs.com/) |
 | TypeScript         | [`tsconfig.json`](./tsconfig.json), [`packages/*/tsconfig.json`](packages/pkg1/tsconfig.json) | [docs](https://www.typescriptlang.org/tsconfig), [website](https://www.typescriptlang.org/) |
 | TypeDoc            | [`tsconfig.json`](tsconfig.json) (`typedocOptions`) | [docs](https://typedoc.org/options/configuration/), [website](https://typedoc.org/) |
-| ESLint             | [`eslint.config.js`](./eslint.config.js) | [docs](https://eslint.org/docs/latest/use/configure/), [website](https://eslint.org/) |
+| Oxlint             | [`.oxlintrc.json`](./.oxlintrc.json) | [docs](https://oxc.rs/docs/guide/usage/linter/config.html), [website](https://oxc.rs/docs/guide/usage/linter.html) |
 | Vite               | [`packages/*/vite.config.ts`](packages/pkg1/vite.config.ts) | [docs](https://vitejs.dev/config/), [website](https://vitejs.dev/) |
 | Vitest             | [`vitest.config.ts`](./vitest.config.ts), [`packages/*/vite.config.ts`](packages/pkg1/vite.config.ts) (`test`) | [docs](https://vitest.dev/config/), [website](https://vitest.dev/) |
 | Dependabot         | [`.github/dependabot.yml`](./.github/dependabot.yml) | [docs](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file), [website](https://github.com/dependabot) |

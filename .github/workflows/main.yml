@@ -37,9 +37,9 @@ jobs:
     strategy:
       matrix:
         include:
-          - tool: ESLint
-            tool-cmd: eslint
-            tool-env: npx eslint --env-info
+          - tool: Oxlint
+            tool-cmd: oxlint
+            tool-env: npx oxlint --version
           - tool: publint
             tool-cmd: publint
             tool-env: npx publint --version
