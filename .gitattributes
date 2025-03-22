@@ -7,3 +7,4 @@
 # https://github.com/github-linguist/linguist/blob/master/docs/overrides.md
 Dockerfile -linguist-detectable
 tsconfig.*.json linguist-language=JSON-with-Comments
+oxlint.json linguist-language=JSON-with-Comments
