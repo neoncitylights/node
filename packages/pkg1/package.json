@@ -1,6 +1,6 @@
 {
 	"name": "@author/package",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "{{desc}}",
 	"license": "MIT",
 	"author": {
@@ -11,7 +11,10 @@
 		"typescript"
 	],
 	"bugs": "https://github.com/{{username}}/{{repository}}/issues",
-	"repository": "github:{{username}}/{{repository}}",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/{{username}}/{{repository}}.git"
+	},
 	"funding": {
 		"type": "individual",
 		"url": "https://github.com/sponsors/{{username}}"
@@ -35,7 +38,6 @@
 		"build": "vite build",
 		"test": "vitest",
 		"prepublint": "npm run build",
-		"publint": "publint",
-		"prepublishOnly": "npm run publint && npm run test"
+		"publint": "publint"
 	}
 }
