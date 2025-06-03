@@ -92,6 +92,8 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - name: Install dependencies
         run: npm ci
+      - name: Auto-fix errors in package.json
+        run: npm pkg fix --workspaces
       - name: Check if publishable
         run: npm publish --workspaces --access public --tag=latest --dry-run
         env:
