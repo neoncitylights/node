@@ -92,8 +92,6 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - name: Install dependencies
         run: npm ci
-      - name: (Temp) Delete "always-auth" from generated .npmrc file
-        run: npm config delete always-auth
       - name: Check if publishable
         run: npm publish --workspaces --access public --tag=latest --dry-run
         env:
