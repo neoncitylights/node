@@ -6,7 +6,7 @@
 		"packages/**"
 	],
 	"scripts": {
-		"build": "npm run build -ws --if-present",
+		"build": "npm run build --workspaces --if-present",
 		"docs": "typedoc",
 		"docs-watch": "npm run docs -- --watch",
 		"clean": "rm -rf ./docs/typedoc/ ./node_modules && rm -rf ./package-lock.json",
@@ -26,7 +26,7 @@
 		"oxlint": "^0.17.0",
 		"publint": "^0.3.12",
 		"typedoc": "^0.28.5",
-		"vite": "^6.3.5",
+		"vite": "npm:rolldown-vite@latest",
 		"vite-plugin-dts": "^4.5.4",
 		"vitest": "^3.2.0"
 	}
