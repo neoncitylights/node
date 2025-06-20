@@ -7,12 +7,13 @@ This repository template makes it easier to create a new NPM library, package or
 - [x] [Node.js](https://nodejs.org/) and latest [TypeScript](https://www.typescriptlang.org/) support
 - [x] Monorepo support with [NPM workspaces](https://docs.npmjs.com/cli/v10/using-npm/workspaces)
 - [x] JS module resolution with [ES Modules](https://nodejs.org/api/esm.html), the official ECMAScript standard
+- [x] Generated API documentation with [TypeDoc](https://typedoc.org/)
 - [x] Continuous integration with [GitHub Actions](https://github.com/features/actions)
-- [x] Auto-bundled, minified source code with [Vite](https://vitejs.dev/)
-- [x] Unit testing and code coverage with [Vitest](https://vitest.dev/) framework
-- [x] Auto-generated API documentation with [TypeDoc](https://typedoc.org/)
-- [x] Auto-linted code with [Oxlint](https://oxc.rs/docs/guide/usage/linter.html)
 - [x] Dependency updates with [Dependabot](https://github.com/dependabot)
+- [x] Uses the JavaScript toolchain created by VoidZero
+  - [x] Bundled, minified source code with [Vite](https://vitejs.dev/)
+  - [x] Unit testing and code coverage with [Vitest](https://vitest.dev/)
+  - [x] Linted code with [Oxlint](https://oxc.rs/docs/guide/usage/linter.html)
 
 ## Getting started
 
