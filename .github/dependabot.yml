@@ -19,10 +19,11 @@ updates:
           - "@types/node"
       lint:
         patterns:
-          - "oxlint"
           - "publint"
-      vite:
+      voidzero:
         patterns:
+          - "oxlint"
+          - "rolldown-vite"
           - "vite"
           - "vite-plugin-*"
           - "vitest"
