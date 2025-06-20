@@ -10,7 +10,7 @@ This repository template makes it easier to create a new NPM library, package or
 - [x] Generated API documentation with [TypeDoc](https://typedoc.org/)
 - [x] Continuous integration with [GitHub Actions](https://github.com/features/actions)
 - [x] Dependency updates with [Dependabot](https://github.com/dependabot)
-- [x] Uses the JavaScript toolchain created by VoidZero
+- [x] Uses the JavaScript toolchain created by [VoidZero](https://voidzero.dev)
   - [x] Bundled, minified source code with [Vite](https://vitejs.dev/)
   - [x] Unit testing and code coverage with [Vitest](https://vitest.dev/)
   - [x] Linted code with [Oxlint](https://oxc.rs/docs/guide/usage/linter.html)
