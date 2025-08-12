@@ -20,7 +20,7 @@ jobs:
         node-version: [lts/*, latest]
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Install Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
         with:
@@ -45,7 +45,7 @@ jobs:
             tool-env: npx publint --version
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
@@ -63,7 +63,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
@@ -83,7 +83,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
