@@ -24,7 +24,7 @@
 		"@vitest/coverage-v8": "^3.2.4",
 		"@vitest/ui": "^3.2.4",
 		"oxlint": "^1.19.0",
-		"publint": "^0.3.12",
+		"publint": "^0.3.13",
 		"typedoc": "^0.28.13",
 		"typescript": "^5.9.3",
 		"vite": "npm:rolldown-vite@^7.1.8",
