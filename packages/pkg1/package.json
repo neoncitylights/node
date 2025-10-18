@@ -15,29 +15,23 @@
 		"type": "git",
 		"url": "git+https://github.com/{{username}}/{{repository}}.git"
 	},
-	"funding": {
-		"type": "individual",
-		"url": "https://github.com/sponsors/{{username}}"
-	},
 	"publishConfig": {
 		"access": "public"
 	},
 	"type": "module",
 	"types": "./dist/index.d.ts",
-	"module": "./dist/index.mjs",
+	"module": "./dist/index.js",
 	"exports": {
 		".": {
 			"types": "./dist/index.d.ts",
-			"import": "./dist/index.mjs"
+			"import": "./dist/index.js"
 		}
 	},
 	"files": [
 		"dist"
 	],
 	"scripts": {
-		"build": "vite build",
-		"test": "vitest",
-		"prepublint": "npm run build",
-		"publint": "publint"
+		"build": "tsdown --from-vite --dts --minify --publint",
+		"test": "vitest"
 	}
 }
