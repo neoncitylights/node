@@ -63,7 +63,6 @@ npm publish --access public
 | `npm run test`       | Run unit tests |
 | `npm run test-ci`    | Run unit tests in CI mode |
 | `npm run test-ui`    | Run unit tests in UI/browser mode |
-| `npm run test-watch` | Run unit tests in watch mode |
 | `npm run lint`       | Check for Oxlint/publint errors |
 | `npm run fix`        | Fix Oxlint errors (publint errors must be fixed manually) |
 | `npm run oxlint`     | Check for Oxlint errors |

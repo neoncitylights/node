@@ -1,4 +1,3 @@
-import dts from 'vite-plugin-dts'
 import { defineProject } from 'vitest/config'
 
 export default defineProject({
@@ -6,7 +5,6 @@ export default defineProject({
 		lib: {
 			entry: new URL('src/index.ts', import.meta.url).pathname,
 			formats: ['es'],
-			fileName: () => 'index.mjs',
 		},
 	},
 	define: {
@@ -15,5 +13,4 @@ export default defineProject({
 	test: {
 		includeSource: ['src/**/*.{js,ts}'],
 	},
-	plugins: [dts()],
 })

@@ -32,17 +32,8 @@ jobs:
         run: npm run build
 
   lint:
-    name: lint (${{ matrix.tool }})
+    name: lint
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        include:
-          - tool: Oxlint
-            tool-cmd: oxlint
-            tool-env: npx oxlint --version
-          - tool: publint
-            tool-cmd: publint
-            tool-env: npx publint --version
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
@@ -54,10 +45,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Print environment info
-        run: |
-          ${{ matrix.tool-env }}
-      - name: Lint with ${{ matrix.tool }}
-        run: npm run ${{ matrix.tool-cmd }}
+        run: npx oxlint --version
+      - name: Lint
+        run: npm run lint
 
   test:
     runs-on: ubuntu-latest
