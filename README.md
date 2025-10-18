@@ -65,8 +65,6 @@ npm publish --access public
 | `npm run test-ui`    | Run unit tests in UI/browser mode |
 | `npm run lint`       | Check for Oxlint/publint errors |
 | `npm run fix`        | Fix Oxlint errors (publint errors must be fixed manually) |
-| `npm run oxlint`     | Check for Oxlint errors |
-| `npm run publint`    | Check for NPM packaging errors |
 
 ### Developer tools
 
