@@ -3,9 +3,8 @@ name: "CodeQL"
 on:
   schedule:
     # Run once a week on Monday at 00:00 (12:00AM or Midnight, UTC)
-    # See POSIX cron syntax visualized at https://crontab.guru/#0_0_*_*_1
-    # GitHub Docs: https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#onschedule
-    # Cron syntax reference: https://pubs.opengroup.org/onlinepubs/9699919799/utilities/crontab.html#tag_20_25_07
+    # - See visualization: https://crontab.guru/#0_0_*_*_1
+    # - GitHub Docs: https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#onschedule
     - cron: '0 0 * * 1'
 
 jobs:
