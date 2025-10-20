@@ -1,24 +1,20 @@
-# TypeScript Template
+# Node.js & TypeScript template
 
-This repository template makes it easier to create a new NPM library, package or application using Node.js and TypeScript. It comes with several developer tools pre-configured and ready to use, so it's easier to get started.
+This template provides a semi-minimal monorepo setup for Node.js + TypeScript projects.
 
 ## Features
-
-- [x] [Node.js](https://nodejs.org/) and latest [TypeScript](https://www.typescriptlang.org/) support
-- [x] Monorepo support with [NPM workspaces](https://docs.npmjs.com/cli/v10/using-npm/workspaces)
-- [x] JS module resolution with [ES Modules](https://nodejs.org/api/esm.html), the official ECMAScript standard
-- [x] Generated API documentation with [TypeDoc](https://typedoc.org/)
-- [x] Continuous integration with [GitHub Actions](https://github.com/features/actions)
-- [x] Dependency updates with [Dependabot](https://github.com/dependabot)
-- [x] Uses the JavaScript toolchain created by [VoidZero](https://voidzero.dev)
-  - [x] Bundled, minified source code with [Vite](https://vitejs.dev/)
-  - [x] Unit testing and code coverage with [Vitest](https://vitest.dev/)
-  - [x] Linted code with [Oxlint](https://oxc.rs/docs/guide/usage/linter.html)
+- [x] ESM support (ECMAScript modules)
+- [x] [TypeDoc](https://typedoc.org/) for generating API documentation
+- [x] [GitHub Actions](https://github.com/features/actions) for continuous integration
+- [x] [Dependabot](https://github.com/dependabot) for updating dependencies
+- [x] Uses the [VoidZero](https://voidzero.dev)-based JS toolchain
+  - [x] [Vite](https://vitejs.dev/) & [tsdown](https://tsdown.dev) for bundling & minifying source code
+  - [x] [Vitest](https://vitest.dev/) for unit testing & code coverage
+  - [x] [Oxlint](https://oxc.rs/docs/guide/usage/linter.html) for linting code
 
 ## Getting started
 
 ### Create a new repository
-
 Choose a method:
 - **GitHub UI**: Press the "Use this template" button in the top-right corner of this page.
 - **GitHub CLI**: Install [GitHub CLI](https://cli.github.com). Then run one of the following:
@@ -28,7 +24,6 @@ Choose a method:
   ```
 
 ### Replace placeholders
-
 Using your text editor or IDE, find-and-replace the following placeholders:
 
 - `@author/package`: Replace this with the author's name (e.g a user or organization) and package's name.
@@ -53,7 +48,6 @@ npm publish --access public
 ## Configure
 
 ### NPM scripts
-
 | Command | Description |
 | ------- | ----------- |
 | `npm run build`      | Build all packages |
@@ -63,11 +57,10 @@ npm publish --access public
 | `npm run test`       | Run unit tests |
 | `npm run test-ci`    | Run unit tests in CI mode |
 | `npm run test-ui`    | Run unit tests in UI/browser mode |
-| `npm run lint`       | Check for Oxlint/publint errors |
-| `npm run fix`        | Fix Oxlint errors (publint errors must be fixed manually) |
+| `npm run lint`       | Check for Oxlint errors |
+| `npm run fix`        | Fix Oxlint errors |
 
 ### Developer tools
-
 | Tool               | File | Documentation |
 | ------------------ | ---- | ------------- |
 | NPM                | [`package.json`](package.json), [`packages/*/package.json`](./packages/pkg1/package.json) | [docs](https://docs.npmjs.com/cli/v10/configuring-npm/package-json), [website](https://docs.npmjs.com/) |
@@ -79,9 +72,7 @@ npm publish --access public
 | Dependabot         | [`.github/dependabot.yml`](./.github/dependabot.yml) | [docs](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file), [website](https://github.com/dependabot) |
 
 ## License
-
 This software is licensed under the MIT license ([`LICENSE-MIT`](./LICENSE) or <https://opensource.org/license/mit/>).
 
 ### Contribution
-
 Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in the work by you, as defined in the MIT license, shall be licensed as above, without any additional terms or conditions.
