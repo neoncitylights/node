@@ -86,5 +86,3 @@ jobs:
         run: npm pkg fix --workspaces
       - name: Check if publishable
         run: npm publish --workspaces --access public --tag=latest --dry-run
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
