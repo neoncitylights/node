@@ -17,9 +17,6 @@ updates:
           - "typescript"
           - "typedoc"
           - "@types/node"
-      lint:
-        patterns:
-          - "publint"
       voidzero:
         patterns:
           - "oxlint"

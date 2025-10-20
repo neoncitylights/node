@@ -3,6 +3,10 @@
 		"./src"
 	],
 	"compilerOptions": {
+		"types": [
+			"vitest/importMeta"
+		],
+
 		/* base options */
 		"esModuleInterop": true,
 		"skipLibCheck": true,
@@ -13,7 +17,10 @@
 		"rootDir": "./src",
 
 		/* transpilation */
-		"lib": [ "ES2022" ],
+		"lib": [
+			"ES2022"
+		],
+
 		"target": "ES2022",
 		"module": "ESNext",
 		"moduleResolution": "Bundler",
@@ -35,10 +42,7 @@
 		"noPropertyAccessFromIndexSignature": true,
 		"noUncheckedIndexedAccess": true,
 		"noUnusedLocals": true,
-		"noUnusedParameters": true,
-
-		/** ES support */
-		"useDefineForClassFields": true,
+		"noUnusedParameters": true
 	},
 	"typedocOptions": {
 		"entryPoints": [
