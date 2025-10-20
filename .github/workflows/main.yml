@@ -23,7 +23,7 @@ jobs:
           - node-version: lts/*
             label: LTS
           - node-version: latest
-            label: latest
+            label: Latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
