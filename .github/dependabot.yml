@@ -21,6 +21,7 @@ updates:
         patterns:
           - "oxlint"
           - "rolldown-vite"
+          - "tsdown"
           - "vite"
           - "vite-plugin-*"
           - "vitest"
