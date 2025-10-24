@@ -7,7 +7,7 @@
 	],
 	"scripts": {
 		"build": "npm run build --workspaces --if-present",
-		"docs": "typedoc",
+		"docs": "typedoc --logLevel Verbose",
 		"docs-watch": "typedoc --watch",
 		"clean": "rm -rf ./dist/typedoc/ ./node_modules ./package-lock.json",
 		"test": "vitest --coverage",
