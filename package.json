@@ -9,7 +9,7 @@
 		"build": "npm run build --workspaces --if-present",
 		"docs": "typedoc",
 		"docs-watch": "typedoc --watch",
-		"clean": "rm -rf ./dist/.typedoc/ ./node_modules ./package-lock.json",
+		"clean": "rm -rf ./dist/typedoc/ ./node_modules ./package-lock.json",
 		"test": "vitest --coverage",
 		"test-ci": "vitest run --coverage",
 		"test-ui": "vitest --ui --coverage",
