@@ -4,8 +4,10 @@
 		"moduleResolution": "Bundler"
 	},
 	"typedocOptions": {
-		"out": "docs/typedoc",
-		"entryPoints": ["packages/*"],
+		"out": "dist/typedoc",
+		"entryPoints": [
+			"packages/*"
+		],
 		"entryPointStrategy": "packages",
 		"includeVersion": false,
 		"lightHighlightTheme": "github-light",
