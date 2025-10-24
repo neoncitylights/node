@@ -7,5 +7,10 @@ export default defineConfig({
 			provider: 'v8',
 		},
 		projects: ['packages/*'],
+		outputFile: {
+			html: 'dist/vitest/index.html',
+			json: 'dist/vitest/index.json',
+			clover: 'dist/vitest/index.xml',
+		}
 	},
 })
