@@ -34,4 +34,9 @@ updates:
       interval: "daily"
     commit-message:
       prefix: "deps(gha):"
+    groups:
+      github:
+        patterns:
+          - "github/*"
+          - "actions/*"
     open-pull-requests-limit: 4
