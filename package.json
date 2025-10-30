@@ -9,11 +9,11 @@
 		"build": "npm run build --workspaces --if-present",
 		"docs": "typedoc --logLevel Verbose",
 		"docs-watch": "typedoc --watch",
-		"clean": "rm -rf ./dist/typedoc/ ./node_modules ./package-lock.json",
+		"clean": "rm -rf ./dist/ ./node_modules ./package-lock.json",
 		"test": "vitest --coverage",
 		"test-ci": "vitest run --coverage",
 		"test-ui": "vitest --ui --coverage",
-		"test-html": "vitest run --reporter=html --coverage.clean; vite preview --outDir ./dist/vitest",
+		"test-html": "vitest run --reporter=html --coverage.clean; vite preview --outDir ./dist/vitest/report",
 		"test-json": "vitest run --reporter=json --coverage.clean",
 		"lint": "oxlint",
 		"fix": "oxlint --fix"
