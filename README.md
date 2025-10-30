@@ -33,15 +33,14 @@ Using your text editor or IDE, find-and-replace the following placeholders:
 - `{{desc}}`: Replace this with a short description of the package.
 
 ## Publishing a package
-```shell
+```sh
 # Enter the root directory of the package you want to publish
 cd packages/pkg1
 
-# if package is scoped, e.g "hello-world"
+# if package is non-scoped, e.g "hello-world"
 npm publish
 
-# if package is non-scoped, e.g "@user123/hello-world",
-# can also be published privately via `--access private` (requires npm pro plan)
+# if package is scoped, e.g "@user123/hello-world"
 npm publish --access public
 ```
 
@@ -74,7 +73,7 @@ npm publish --access public
 | Dependabot         | [`.github/dependabot.yml`](./.github/dependabot.yml) | [docs](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file), [website](https://github.com/dependabot) |
 
 ## License
-This software is licensed under the MIT license ([`LICENSE-MIT`](./LICENSE) or <https://opensource.org/license/mit/>).
+This software is licensed under the MIT license ([`LICENSE`](./LICENSE) or <https://opensource.org/license/mit/>).
 
 ### Contribution
 Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in the work by you, as defined in the MIT license, shall be licensed as above, without any additional terms or conditions.
