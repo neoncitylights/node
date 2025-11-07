@@ -68,6 +68,7 @@ npm publish --access public
 | TypeScript         | [`tsconfig.json`](./tsconfig.json), [`packages/*/tsconfig.json`](packages/pkg1/tsconfig.json) | [docs](https://www.typescriptlang.org/tsconfig), [website](https://www.typescriptlang.org/) |
 | TypeDoc            | [`tsconfig.json`](tsconfig.json) (`typedocOptions`) | [docs](https://typedoc.org/options/configuration/), [website](https://typedoc.org/) |
 | Oxlint             | [`.oxlintrc.json`](./.oxlintrc.json) | [docs](https://oxc.rs/docs/guide/usage/linter/config.html), [website](https://oxc.rs/docs/guide/usage/linter.html) |
+| tsdown             | [`packages/*/tsdown.config.ts`](packages/pkg1/tsdown.config.ts) | [docs](https://tsdown.dev/options/config-file), [website](https://tsdown.dev) |
 | Vite               | [`packages/*/vite.config.ts`](packages/pkg1/vite.config.ts) | [docs](https://vitejs.dev/config/), [website](https://vitejs.dev/) |
 | Vitest             | [`vitest.config.ts`](./vitest.config.ts), [`packages/*/vite.config.ts`](packages/pkg1/vite.config.ts) (`test`) | [docs](https://vitest.dev/config/), [website](https://vitest.dev/) |
 | Dependabot         | [`.github/dependabot.yml`](./.github/dependabot.yml) | [docs](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file), [website](https://github.com/dependabot) |

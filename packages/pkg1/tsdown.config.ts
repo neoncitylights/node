@@ -5,4 +5,5 @@ export default defineConfig({
 	dts: true,
 	publint: true,
 	minify: true,
+	nodeProtocol: true,
 })
