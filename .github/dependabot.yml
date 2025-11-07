@@ -16,11 +16,13 @@ updates:
         patterns:
           - "typescript"
           - "typedoc"
-          - "@types/node"
+          - "@types/*"
       voidzero:
         patterns:
           - "oxlint"
+          - "rolldown"
           - "rolldown-vite"
+          - "rolldown-plugin-*"
           - "tsdown"
           - "vite"
           - "vite-plugin-*"
