@@ -20,12 +20,12 @@
 		"access": "public"
 	},
 	"type": "module",
-	"types": "./dist/index.d.ts",
-	"module": "./dist/index.js",
+	"types": "./dist/index.d.mts",
+	"module": "./dist/index.mjs",
 	"exports": {
 		".": {
-			"types": "./dist/index.d.ts",
-			"import": "./dist/index.js"
+			"types": "./dist/index.d.mts",
+			"import": "./dist/index.mjs"
 		}
 	},
 	"files": [
