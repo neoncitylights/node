@@ -32,7 +32,8 @@
 		"dist"
 	],
 	"scripts": {
-		"build": "tsdown --from-vite --dts --minify --publint",
+		"build": "tsdown",
+		"dev": "tsdown --watch",
 		"test": "vitest"
 	}
 }
