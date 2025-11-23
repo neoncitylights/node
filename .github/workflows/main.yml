@@ -45,7 +45,7 @@ jobs:
         include:
           - tool: oxfmt
             tool-purpose: formatter
-            npm-script: fmt-check
+            npm-script: fmt-ci
           - tool: oxlint
             tool-purpose: linter
             npm-script: lint

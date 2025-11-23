@@ -16,7 +16,7 @@
 		"test-html": "vitest run --reporter=html --coverage.clean; vite preview --outDir ./dist/vitest/report",
 		"test-json": "vitest run --reporter=json --coverage.clean",
 		"fmt": "oxfmt",
-		"fmt-check": "oxfmt --check",
+		"fmt-ci": "oxfmt --check",
 		"lint": "oxlint",
 		"fix": "oxlint --fix"
 	},
