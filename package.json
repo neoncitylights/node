@@ -21,7 +21,7 @@
 		"fix": "oxlint --fix"
 	},
 	"devDependencies": {
-		"@types/node": "^24.10.0",
+		"@types/node": "^24.10.1",
 		"@vitest/coverage-v8": "^4.0.8",
 		"@vitest/ui": "^4.0.8",
 		"oxlint": "^1.26.0",
