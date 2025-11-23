@@ -12,6 +12,6 @@ export default defineConfig({
 			html: 'dist/vitest/report/index.html',
 			json: 'dist/vitest/report/index.json',
 			clover: 'dist/vitest/report/index.xml',
-		}
+		},
 	},
 })

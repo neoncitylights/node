@@ -34,6 +34,10 @@
 	"scripts": {
 		"build": "tsdown",
 		"dev": "tsdown --watch",
-		"test": "vitest"
+		"test": "vitest",
+		"fmt": "oxfmt --config=./../../.oxfmtrc.json",
+		"fmt-check": "npm run fmt -- --check",
+		"lint": "oxlint --config=./../../.oxlintrc.json",
+		"fix": "npm run lint -- --fix"
 	}
 }

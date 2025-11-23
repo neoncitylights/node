@@ -19,6 +19,7 @@ updates:
           - "@types/*"
       voidzero:
         patterns:
+          - "oxfmt"
           - "oxlint"
           - "rolldown"
           - "rolldown-vite"
