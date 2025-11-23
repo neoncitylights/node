@@ -58,8 +58,9 @@ npm publish --access public
 | `npm run test-ui`     | Run unit tests in UI/browser mode |
 | `npm run test-html`   | View test results in browser |
 | `npm run test-json`   | View test results in JSON format |
-| `npm run fmt`         | Apply formatting |
-| `npm run lint`        | Check for Oxlint errors |
+| `npm run fmt`         | Apply formatting fixes |
+| `npm run fmt-ci`      | Check for formatting issues (used for CI) |
+| `npm run lint`        | Check for Oxlint issues |
 | `npm run fix`         | Apply Oxlint fixes |
 
 ### Developer tools
