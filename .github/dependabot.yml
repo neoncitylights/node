@@ -22,7 +22,6 @@ updates:
           - "oxfmt"
           - "oxlint"
           - "rolldown"
-          - "rolldown-vite"
           - "rolldown-plugin-*"
           - "tsdown"
           - "vite"
