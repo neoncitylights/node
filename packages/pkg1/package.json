@@ -1,19 +1,19 @@
 {
 	"name": "@author/package",
 	"version": "1.0.0",
-	"description": "{{desc}}",
+	"description": "_desc_",
 	"license": "MIT",
 	"author": {
-		"name": "{{author}}",
-		"url": "https://github.com/{{username}}"
+		"name": "_author_",
+		"url": "https://github.com/_username_"
 	},
 	"keywords": [
 		"typescript"
 	],
-	"bugs": "https://github.com/{{username}}/{{repository}}/issues",
+	"bugs": "https://github.com/_username_/_repository_/issues",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/{{username}}/{{repository}}.git",
+		"url": "git+https://github.com/_username_/_repository_.git",
 		"directory": "packages/pkg1"
 	},
 	"publishConfig": {

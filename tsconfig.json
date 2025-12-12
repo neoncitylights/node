@@ -1,16 +1,14 @@
 {
 	"compilerOptions": {
 		"module": "ESNext",
-		"moduleResolution": "Bundler"
+		"moduleResolution": "Bundler",
 	},
 	"typedocOptions": {
 		"out": "dist/typedoc",
-		"entryPoints": [
-			"packages/*"
-		],
+		"entryPoints": ["packages/*"],
 		"entryPointStrategy": "packages",
 		"includeVersion": false,
 		"lightHighlightTheme": "github-light",
-		"darkHighlightTheme": "github-dark"
-	}
+		"darkHighlightTheme": "github-dark",
+	},
 }
