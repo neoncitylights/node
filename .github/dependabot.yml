@@ -5,40 +5,43 @@
 
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directory: "/"
+  - package-ecosystem: 'npm'
+    directory: '/'
     schedule:
-      interval: "monthly"
+      interval: 'monthly'
     commit-message:
-      prefix: "deps(npm):"
+      prefix: 'deps(npm):'
     groups:
       typescript:
         patterns:
-          - "typescript"
-          - "typedoc"
-          - "@types/*"
+          - 'node-modules-inspector'
+          - 'typescript'
+          - 'typedoc'
+          - '@types/*'
       voidzero:
         patterns:
-          - "oxfmt"
-          - "oxlint"
-          - "rolldown"
-          - "rolldown-plugin-*"
-          - "tsdown"
-          - "vite"
-          - "vite-plugin-*"
-          - "vitest"
-          - "@vitest/*"
+          - 'oxfmt'
+          - 'oxlint'
+          - 'oxlint-tsgolint'
+          - 'rolldown'
+          - 'rolldown-vite'
+          - 'rolldown-plugin-*'
+          - 'tsdown'
+          - 'vite'
+          - 'vite-plugin-*'
+          - 'vitest'
+          - '@vitest/*'
     open-pull-requests-limit: 4
 
-  - package-ecosystem: "github-actions"
-    directory: "/"
+  - package-ecosystem: 'github-actions'
+    directory: '/'
     schedule:
-      interval: "daily"
+      interval: 'daily'
     commit-message:
-      prefix: "deps(gha):"
+      prefix: 'deps(gha):'
     groups:
       github:
         patterns:
-          - "github/*"
-          - "actions/*"
+          - 'github/*'
+          - 'actions/*'
     open-pull-requests-limit: 4

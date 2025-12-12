@@ -1,11 +1,7 @@
 {
-	"include": [
-		"./src"
-	],
+	"include": ["./src"],
 	"compilerOptions": {
-		"types": [
-			"vitest/importMeta"
-		],
+		"types": ["vitest/importMeta"],
 
 		/* base options */
 		"esModuleInterop": true,
@@ -17,9 +13,7 @@
 		"rootDir": "./src",
 
 		/* transpilation */
-		"lib": [
-			"ES2022"
-		],
+		"lib": ["ES2022"],
 
 		"target": "ES2022",
 		"module": "ESNext",
@@ -42,11 +36,9 @@
 		"noPropertyAccessFromIndexSignature": true,
 		"noUncheckedIndexedAccess": true,
 		"noUnusedLocals": true,
-		"noUnusedParameters": true
+		"noUnusedParameters": true,
 	},
 	"typedocOptions": {
-		"entryPoints": [
-			"src/index.ts"
-		]
-	}
+		"entryPoints": ["src/index.ts"],
+	},
 }

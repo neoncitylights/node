@@ -1,7 +1,8 @@
 {
+	"private": true,
+	"version": "0.0.0",
 	"name": "@author/monorepo",
 	"type": "module",
-	"private": true,
 	"workspaces": [
 		"packages/**"
 	],
@@ -17,20 +18,23 @@
 		"test-json": "vitest run --reporter=json --coverage.clean",
 		"fmt": "oxfmt",
 		"fmt-ci": "oxfmt --check",
-		"lint": "oxlint",
-		"fix": "oxlint --fix"
+		"lint": "oxlint --type-aware --type-check",
+		"fix": "oxlint --fix",
+		"inspect": "node-modules-inspector"
 	},
 	"devDependencies": {
-		"@types/node": "^24.10.1",
-		"@vitest/coverage-v8": "^4.0.14",
-		"@vitest/ui": "^4.0.8",
-		"oxfmt": "^0.16.0",
-		"oxlint": "^1.31.0",
-		"publint": "^0.3.15",
-		"tsdown": "^0.16.8",
+		"@types/node": "^25.0.1",
+		"@vitest/coverage-v8": "^4.0.15",
+		"@vitest/ui": "^4.0.15",
+		"oxfmt": "^0.17.0",
+		"oxlint": "^1.32.0",
+		"oxlint-tsgolint": "^0.8.6",
+		"node-modules-inspector": "^1.2.0",
+		"publint": "^0.3.16",
+		"tsdown": "^0.17.3",
 		"typedoc": "^0.28.15",
 		"typescript": "^5.9.3",
 		"vite": "8.0.0-beta.0",
-		"vitest": "^4.0.8"
+		"vitest": "^4.0.15"
 	}
 }
