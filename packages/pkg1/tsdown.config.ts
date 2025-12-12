@@ -4,6 +4,7 @@ export default defineConfig({
 	entry: 'src/index.ts',
 	dts: true,
 	publint: {
+		level: 'warning',
 		strict: false,
 	},
 	minify: true,
