@@ -8,6 +8,7 @@ This template provides a semi-minimal monorepo setup for Node.js + TypeScript pr
 - [x] [TypeDoc](https://typedoc.org/) for generating API documentation
 - [x] [GitHub Actions](https://github.com/features/actions) for continuous integration
 - [x] [Dependabot](https://github.com/dependabot) for updating dependencies
+- [x] [node-modules-inspector](https://github.com/antfu/node-modules-inspector) for deep insights on dependency graph
 - [x] Uses the [VoidZero](https://voidzero.dev)-based JS toolchain
   - [x] [Vite](https://vitejs.dev/) & [tsdown](https://tsdown.dev) for bundling & minifying source code
   - [x] [Vitest](https://vitest.dev/) for unit testing & code coverage
@@ -68,6 +69,7 @@ npm publish --access public
 | `npm run fmt-ci`     | Check for formatting issues (used for CI) |
 | `npm run lint`       | Check for Oxlint issues                   |
 | `npm run fix`        | Apply Oxlint fixes                        |
+| `npm run inspect`    | Run node-modules-inspector server         |
 
 ### Developer tools
 

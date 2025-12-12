@@ -1,7 +1,8 @@
 {
+	"private": true,
+	"version": "0.0.0",
 	"name": "@author/monorepo",
 	"type": "module",
-	"private": true,
 	"workspaces": [
 		"packages/**"
 	],
@@ -18,7 +19,8 @@
 		"fmt": "oxfmt",
 		"fmt-ci": "oxfmt --check",
 		"lint": "oxlint --type-aware --type-check",
-		"fix": "oxlint --fix"
+		"fix": "oxlint --fix",
+		"inspect": "node-modules-inspector"
 	},
 	"devDependencies": {
 		"@types/node": "^25.0.1",
@@ -27,6 +29,7 @@
 		"oxfmt": "^0.17.0",
 		"oxlint": "^1.32.0",
 		"oxlint-tsgolint": "^0.8.6",
+		"node-modules-inspector": "^1.2.0",
 		"publint": "^0.3.15",
 		"tsdown": "^0.17.3",
 		"typedoc": "^0.28.15",
