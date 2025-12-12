@@ -1,23 +1,13 @@
 {
 	"$schema": "./node_modules/oxlint/configuration_schema.json",
-	"plugins": [
-		"oxc",
-		"promise",
-		"unicorn",
-		"typescript",
-		"vitest",
-		"import"
-	],
+	"plugins": ["oxc", "promise", "unicorn", "typescript", "vitest", "import"],
 	"categories": {
-		"correctness": "error"
+		"correctness": "error",
 	},
 	"env": {
-		"builtin": true
+		"builtin": true,
 	},
-	"ignorePatterns": [
-		"**/dist/",
-		"docs/typedoc"
-	],
+	"ignorePatterns": ["**/dist/", "docs/typedoc"],
 	"rules": {
 		"no-array-constructor": "error",
 		"no-empty-function": "error",
@@ -59,6 +49,6 @@
 		"typescript/no-confusing-non-null-assertion": "error",
 		"typescript/no-inferrable-types": "error",
 		"typescript/prefer-for-of": "error",
-		"typescript/prefer-function-type": "error"
-	}
+		"typescript/prefer-function-type": "error",
+	},
 }

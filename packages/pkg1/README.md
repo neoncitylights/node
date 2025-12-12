@@ -1,4 +1,5 @@
 # @author/package
+
 [![License: MIT][license-badge]][license-url]
 [![Documentation deployments][doc-deploy-badge]][doc-deploy-url]
 [![Node.js workflow][ci-badge]][ci-url]
@@ -13,12 +14,15 @@
 {{desc}}
 
 ## Install
+
 ```sh
 npm install @author/package
 ```
 
 ## License
+
 This library is licensed under the MIT license ([`LICENSE`](../../LICENSE) or http://opensource.org/licenses/MIT).
 
 ### Contribution
+
 Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in the work by you, as defined in the MIT license, shall be licensed as above, without any additional terms or conditions.
