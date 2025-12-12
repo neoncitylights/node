@@ -22,8 +22,8 @@ Choose a method:
 - **GitHub UI**: Press the "Use this template" button in the top-right corner of this page.
 - **GitHub CLI**: Install [GitHub CLI](https://cli.github.com). Then run one of the following:
   ```shell
-  gh repo create --template neoncitylights/node --public --clone {{repository}}  # clone as public
-  gh repo create --template neoncitylights/node --private --clone {{repository}} # clone as private
+  gh repo create --template neoncitylights/node --public --clone _repository_  # clone as public
+  gh repo create --template neoncitylights/node --private --clone _repository_ # clone as private
   ```
 
 ### Replace placeholders
@@ -31,10 +31,10 @@ Choose a method:
 Using your text editor or IDE, find-and-replace the following placeholders:
 
 - `@author/package`: Replace this with the author's name (e.g a user or organization) and package's name.
-- `{{author}}`: Replace this with the author's name (e.g real name, GitHub username, etc).
-- `{{username}}`: Replace this with your GitHub username.
-- `{{repository}}`: Replace this with the name of your repository.
-- `{{desc}}`: Replace this with a short description of the package.
+- `_author_`: Replace this with the author's name (e.g real name, GitHub username, etc).
+- `_username_`: Replace this with your GitHub username.
+- `_repository_`: Replace this with the name of your repository.
+- `_desc_`: Replace this with a short description of the package.
 
 ## Publishing a package
 

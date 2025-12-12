@@ -6,12 +6,12 @@
 
 [license-badge]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square
 [license-url]: #license
-[doc-deploy-badge]: https://img.shields.io/github/deployments/{{username}}/{{repository}}/github-pages?label=deploy&style=flat-square
-[doc-deploy-url]: https://github.com/{{username}}/{{repository}}/deployments/activity_log?environment=github-pages
-[ci-badge]: https://img.shields.io/github/actions/workflow/status/{{username}}/{{repository}}/.github/workflows/main.yml?style=flat-square
-[ci-url]: https://github.com/{{username}}/{{repository}}/actions/workflows/main.yml
+[doc-deploy-badge]: https://img.shields.io/github/deployments/_username_/_repository_/github-pages?label=deploy&style=flat-square
+[doc-deploy-url]: https://github.com/_username_/_repository_/deployments/activity_log?environment=github-pages
+[ci-badge]: https://img.shields.io/github/actions/workflow/status/_username_/_repository_/.github/workflows/main.yml?style=flat-square
+[ci-url]: https://github.com/_username_/_repository_/actions/workflows/main.yml
 
-{{desc}}
+_desc_
 
 ## Install
 
