@@ -1,11 +1,11 @@
 {
-	"private": true,
-	"version": "0.0.0",
 	"name": "@author/monorepo",
-	"type": "module",
+	"version": "0.0.0",
+	"private": true,
 	"workspaces": [
 		"packages/**"
 	],
+	"type": "module",
 	"scripts": {
 		"build": "npm run build --workspaces --if-present",
 		"docs": "typedoc --logLevel Verbose",
@@ -26,10 +26,10 @@
 		"@types/node": "^25.0.3",
 		"@vitest/coverage-v8": "^4.0.16",
 		"@vitest/ui": "^4.0.15",
+		"node-modules-inspector": "^1.2.0",
 		"oxfmt": "^0.21.0",
 		"oxlint": "^1.36.0",
 		"oxlint-tsgolint": "^0.10.0",
-		"node-modules-inspector": "^1.2.0",
 		"publint": "^0.3.16",
 		"tsdown": "^0.18.4",
 		"typedoc": "^0.28.15",
