@@ -17,6 +17,7 @@ _desc_
 
 ```sh
 npm install @author/package
+pnpm install @author/package
 ```
 
 ## License

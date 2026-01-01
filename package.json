@@ -7,7 +7,7 @@
 	],
 	"type": "module",
 	"scripts": {
-		"build": "npm run build --workspaces --if-present",
+		"build": "pnpm run --r --if-present build",
 		"docs": "typedoc --logLevel Verbose",
 		"docs-watch": "typedoc --watch",
 		"clean": "rm -rf ./dist/ ./node_modules ./package-lock.json",
