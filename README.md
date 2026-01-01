@@ -44,38 +44,38 @@ Using your text editor or IDE, find-and-replace the following placeholders:
 cd packages/pkg1
 
 # if package is non-scoped, e.g "hello-world"
-npm publish
+pnpm publish
 
 # if package is scoped, e.g "@user123/hello-world"
-npm publish --access public
+pnpm publish --access public
 ```
 
 ## Configure
 
-### NPM scripts
+### PNPM scripts
 
-| Command              | Description                               |
-| -------------------- | ----------------------------------------- |
-| `npm run build`      | Build all packages                        |
-| `npm run docs`       | Generate documentation                    |
-| `npm run docs-watch` | Generate documentation in watch mode      |
-| `npm run clean`      | Remove all generated files                |
-| `npm run test`       | Run unit tests                            |
-| `npm run test-ci`    | Run unit tests in CI mode                 |
-| `npm run test-ui`    | Run unit tests in UI/browser mode         |
-| `npm run test-html`  | View test results in browser              |
-| `npm run test-json`  | View test results in JSON format          |
-| `npm run fmt`        | Apply formatting fixes                    |
-| `npm run fmt-ci`     | Check for formatting issues (used for CI) |
-| `npm run lint`       | Check for Oxlint issues                   |
-| `npm run fix`        | Apply Oxlint fixes                        |
-| `npm run inspect`    | Run node-modules-inspector server         |
+| Command               | Description                               |
+| --------------------- | ----------------------------------------- |
+| `pnpm run build`      | Build all packages                        |
+| `pnpm run docs`       | Generate documentation                    |
+| `pnpm run docs-watch` | Generate documentation in watch mode      |
+| `pnpm run clean`      | Remove all generated files                |
+| `pnpm run test`       | Run unit tests                            |
+| `pnpm run test-ci`    | Run unit tests in CI mode                 |
+| `pnpm run test-ui`    | Run unit tests in UI/browser mode         |
+| `pnpm run test-html`  | View test results in browser              |
+| `pnpm run test-json`  | View test results in JSON format          |
+| `pnpm run fmt`        | Apply formatting fixes                    |
+| `pnpm run fmt-ci`     | Check for formatting issues (used for CI) |
+| `pnpm run lint`       | Check for Oxlint issues                   |
+| `pnpm run fix`        | Apply Oxlint fixes                        |
+| `pnpm run inspect`    | Run node-modules-inspector server         |
 
 ### Developer tools
 
 | Tool       | File                                                                                                           | Documentation                                                                                                                                                                      |
 | ---------- | -------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| NPM        | [`package.json`](package.json), [`packages/*/package.json`](./packages/pkg1/package.json)                      | [docs](https://docs.npmjs.com/cli/v10/configuring-npm/package-json), [website](https://docs.npmjs.com/)                                                                            |
+| PNPM       | [`package.json`](package.json), [`packages/*/package.json`](./packages/pkg1/package.json)                      | [docs](https://pnpm.io/package_json), [website](https://pnpm.io/)                                                                                                                  |
 | TypeScript | [`tsconfig.json`](./tsconfig.json), [`packages/*/tsconfig.json`](packages/pkg1/tsconfig.json)                  | [docs](https://www.typescriptlang.org/tsconfig), [website](https://www.typescriptlang.org/)                                                                                        |
 | TypeDoc    | [`tsconfig.json`](tsconfig.json) (`typedocOptions`)                                                            | [docs](https://typedoc.org/options/configuration/), [website](https://typedoc.org/)                                                                                                |
 | Oxfmt      | [`.oxfmtrc.json`](./.oxfmtrc.json)                                                                             | [docs](https://oxc.rs/docs/guide/usage/formatter.html), [website](https://oxc.rs)                                                                                                  |
