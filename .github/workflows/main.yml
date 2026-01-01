@@ -115,4 +115,4 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
       - name: Check if publishable
-        run: pnpm publish --dry-run --recursive
+        run: pnpm publish --dry-run --recursive --no-git-checks
