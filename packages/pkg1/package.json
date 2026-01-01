@@ -35,8 +35,7 @@
 		"build": "tsdown",
 		"dev": "tsdown --watch",
 		"test": "vitest",
-		"fmt": "oxfmt --config=./../../.oxfmtrc.jsonc",
-		"fmt-check": "npm run fmt -- --check",
+		"fmt": "oxfmt --config=../../.oxfmtrc.jsonc",
 		"lint": "oxlint",
 		"fix": "oxlint --fix"
 	}
